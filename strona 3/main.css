@@ -1,0 +1,155 @@
+body, html
+{
+	background-color:#3d495b;
+	width:100%;
+	padding:0px;
+	height:100%;
+	font-weight:400;
+	line-height:1.7em;
+}
+
+.nav
+{ 
+	width: 100%;
+	padding:0px;
+	background-color:#222326;
+	text-align: center;
+}
+
+
+ol
+{
+	padding: 6px;
+	margin: 0;
+	list-style-type: none;
+	font-size: 22px;
+	height: 65px;
+	line-height: 200%;
+	display: inline-block;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	
+}
+ol a
+{
+	color:#338ce0;
+	text-decoration: none;
+	display: block;
+	transition: 0.3s ease-in-out;
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+}
+
+
+ol > li:hover
+{
+	background-color: #222326;
+}
+
+ol > li:hover > a
+{
+	 
+	color: #fff;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:#222326;
+	position: relative;
+	z-index: 100;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #35373d;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #fff;
+}
+
+#txt
+{
+	
+	margin-left:100px;
+	color:#338ce0;
+	
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.categories
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+}
+
+
+
+.Jezyk
+{
+	display: inline-block;
+	margin-top: 10px;
+	padding:20px;
+}
+
+.Jezyk a
+{
+	opacity: 0.8;
+	transition: 0.3s ease-in-out;
+}
+
+.Jezyk a:hover
+{
+	opacity: 1;
+	transition: 0.3s ease-in-out;
+}
+
+figure
+{
+	margin: 8px;
+	padding: 0;
+}
+
+figcaption
+{
+	margin-top: 8px;
+	padding: 0;
+	color:#338ce0;
+	font-size:24px;
+	font-weight: bold;
+	font-family: 'Joti One', cursive;
+}
+	
+
+	

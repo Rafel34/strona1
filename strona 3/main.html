@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie-edge">
+<link rel="stylesheet" href="main.css">
+<title>PizzaPortal</title>
+<link href="https://fonts.googleapis.com/css?family=Joti+One|Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet">
+
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  
+    return i;
+}
+</script>
+
+
+
+</head>
+
+<body onload="startTime()">
+
+<div class="nav">
+			<ol>
+				<li><a href="main.html">Strona główna</a></li>
+				<li><a href="#">Pobierz</a>
+					<ul>
+						<li><a href="https://sourceforge.net/projects/codeblocks/files/Binaries/17.12/Windows/codeblocks-17.12mingw-setup.exe/download" target="_blank">CodeBlocks</a></li>
+						<li><a href="https://www.python.org/downloads/" target="_blank">Python</a></li>
+					</ul>
+				</li>
+				<li><a href="projekt.html">Projekty</a>
+					<ul>
+						<li><a href="#">C++</a></li>
+						<li><a href="#">Python</a></li>
+						<li><a href="#">HTML/CSS</a></li>
+						<li><a href="#">Inne</a></li>
+					
+				</ul>
+				</li>
+					<li><a href="#">GitHub</a>
+					<ul>
+						<li><a href="https://github.com/Rafel34" target="_blank">Rafał</a></li>
+						<li><a href="#">Kacper</a></li>
+				</ul>
+				</li>
+				
+				<li><div id="txt"></div></li>
+				
+			</ol>
+		
+		</div>
+		
+		
+		</div>
+		
+		</div>
+		
+		
+		
+		<main>
+	
+		<article>
+		
+			<section>
+			
+				<div class="categories">
+				
+				
+					
+					<div class="Jezyk">
+					
+						<figure>
+							<a href="#"><img src="img/cpp.jpg" height="270" width="480"></a>
+							<figcaption>C++</figcaption>
+						</figure>
+					
+					</div>
+					
+					<div class="Jezyk">
+					
+						<figure>
+							<a href="#"><img src="img/python.png" height="270" width="480"></a>
+							<figcaption>Python</figcaption>
+						</figure>
+					
+					</div>
+
+					<div class="Jezyk">
+					
+						<figure>
+							<a href="#"><img src="img/web-design.jpg" height="270" width="480"></a>
+							<figcaption>Programowanie Webowe</figcaption>
+						</figure>
+					
+					</div>
+
+					
+
+					<div class="Jezyk">
+					
+						<figure>
+							<a href="#"><img src="img/inne.jpg" height="270" width="480"></a>
+							<figcaption>Inne</figcaption>
+						</figure>
+					
+					</div>
+
+					
+
+				</div>
+				
+			</section>
+			
+			
+
+					
+		
+		</article>
+	
+	</main>
+
+		
+		
+		
+		
+<script src="jquery-3.2.1.min.js"></script>
+
+
+
+<div class="section">
+
+
+
+
+</div>
+
+
+</body>
+
+
+</html>
